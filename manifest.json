@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "logo19.png",
+      "default_title": "Squirt"
+   },
+   "description": "Read web pages really fast",
+   "icons": {
+      "128": "editable-icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhLffpVj/eeaurQNwFsQbOEw7o+eq8dEOAmnEoNKX3Z09W934ztHeycd3//UgJRgymTWLrJEdP1FSDxk34EEp/gX6Wds28pCBu2TJsBaFFFlX5oENqHOmokm45IdW9b04BNo886dFZzBISHqcubAzD69DDzdZahquNVa+a3jFJn0f34KzECjuOv4CsS0ewbH23q+N/saYKna4BPD7ulHix/S/wWMuD2gI0+UgprbPAF8auwnFhUWkzpcxl7MMa67Hgk3sNNCi7S8CKMt53p4WMWImR79Ezi3l2oIEq3hFobb47xJ0gBOwyyG2eUV8BPYq+6rqGbAfHg384dkSg6krwwIDAQAB",
+   "manifest_version": 2,
+   "name": "Squirt",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1"
+}
